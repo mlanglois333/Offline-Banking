@@ -1,11 +1,11 @@
 const FILES_TO_CACHE = [
   '/',
-  'public/index.html',
-  'public/assets/css/styles.css',
-  'public/assets/img/icon-192x192.png',
-  'public/assets/img/icon-512x512.png',
-  'public/assets/js/db.js',
-  'public/assets/js/index.js',
+  '/index.html',
+  '/assets/css/styles.css',
+  '/assets/img/icon-192x192.png',
+  '/assets/img/icon-512x512.png',
+  '/assets/js/db.js',
+  '/assets/js/index.js',
   'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css',
   'https://cdn.jsdelivr.net/npm/chart.js@2.8.0"'
 ];
