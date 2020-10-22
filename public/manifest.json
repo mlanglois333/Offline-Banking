@@ -3,12 +3,12 @@
     "short_name": "Banking Offline",
     "icons": [
         {
-            "src": "icons/icon-192x192.png",
+            "src": "assets/img/icon-192x192.png",
             "sizes": "72x72",
             "type": "image/png"
         },
         {
-            "src": "icons/icon-512x512.png",
+            "src": "assets/img/icon-512x512.png",
             "sizes": "512x5122",
             "type": "image/png"
         }
