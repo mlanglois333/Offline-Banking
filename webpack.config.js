@@ -41,7 +41,7 @@ const config = {
                 {
                     src: path.resolve(
                         __dirname,
-                        "./public/assets/img/icon-512x512.png"
+                        "public/assets/img/icon-512x512.png"
                     ),
                     sizes: [96, 128, 192, 256, 384, 512],
                     destination: path.join('assets', 'icons'),
