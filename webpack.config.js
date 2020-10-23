@@ -3,7 +3,7 @@ const path = require('path');
 
 const config = {
     entry: {
-        app: './public/assets/js/index.js',
+        main: './public/assets/js/index.js',
         db: './public/assets/js/db.js',
     },
     output: {
@@ -34,17 +34,16 @@ const config = {
             description: 'Banking, now conveniently offline!.',
             background_color: '#01579b',
             theme_color: '#ffffff',
-            'theme-color': '#ffffff',
             start_url: '/',
             display: "standalone",
             icons: [
                 {
                     src: path.resolve(
                         __dirname,
-                        "public/assets/img/icon-512x512.png"
+                        "public/assets/img/icon-192x192.png"
                     ),
-                    sizes: [96, 128, 192, 256, 384, 512],
-                    destination: path.join('assets', 'icons'),
+                    sizes: [192, 512],
+                    destination: path.join('assets', 'img'),
                 },
             ],
         }),
