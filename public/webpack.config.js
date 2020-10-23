@@ -3,8 +3,8 @@ const path = require('path');
 
 const config = {
     entry: {
-        main: './public/assets/js/index.js',
-        db: './public/assets/js/db.js',
+        main: '/assets/js/index.js',
+        db: '/assets/js/db.js',
     },
     output: {
         path: __dirname + '/public/dist',
@@ -40,7 +40,7 @@ const config = {
                 {
                     src: path.resolve(
                         __dirname,
-                        "public/assets/img/icon-192x192.png"
+                        "/assets/img/icon-192x192.png"
                     ),
                     sizes: [192, 512],
                     destination: path.join('assets', 'img'),
