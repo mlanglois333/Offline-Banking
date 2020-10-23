@@ -8,11 +8,8 @@ Banking, Now Conveniently Offline!
 
 This is a PWA that allows users to log transactions when offline. The cached transactions will be sent to the MongoDB Atlas database once an internet connection is established again.
 
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true">
-    <source src="./public/assets/img/Budget_Tracker.mp4" type="video/mp4">
-  </video>
-</figure>
+<a href="./public/assets/img/Budget_Tracker.mp4">Click here for a demo video</a>
+
 
 ## Technology Used
 
@@ -23,7 +20,8 @@ This is a PWA that allows users to log transactions when offline. The cached tra
 <li> Service Worker</li>
 <li> Webpack </li>
 <li> HTML/CSS/JS </li>
+</ul>
 
 
 
-Marc Langlois 2020 UNH Coding Bootcamp
+### Marc Langlois 2020 UNH Coding Bootcamp
